@@ -1,0 +1,29 @@
+# AI 商品视角转换 Web 应用 - 后端依赖
+
+# Modal - 无服务器 GPU 计算平台
+modal>=0.64.0
+
+# Testing
+pytest>=7.4.0
+hypothesis>=6.92.0
+
+# FastAPI - Web 框架
+fastapi>=0.109.0
+uvicorn>=0.27.0
+
+# Pydantic - 数据验证
+pydantic>=2.5.0
+
+# PyTorch - 深度学习框架
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# HuggingFace - 模型下载
+huggingface_hub>=0.20.0
+
+# 图像处理
+Pillow>=10.0.0
+
+# ComfyUI CLI
+comfy-cli>=1.0.0

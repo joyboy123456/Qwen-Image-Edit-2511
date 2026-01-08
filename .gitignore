@@ -1,44 +1,48 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
-*.egg-info/
-dist/
-build/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+# Testing
+coverage/
+.hypothesis/
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.kiro/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
-.DS_Store
 Thumbs.db
-desktop.ini
+nul
 
-# ComfyUI 相关（如果有本地运行的输出）
-output/
-temp/
-logs/
-*.log
+# Temporary files
+*.zip
+*.tmp
 
-# 模型文件（太大了不要提交）
-*.safetensors
-*.ckpt
-*.pt
-*.pth
-*.bin
-models/
-checkpoints/
+# Python
+__pycache__/
+*.py[cod]
+__pycache__
+
+# Modal
+.modal/
